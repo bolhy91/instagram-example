@@ -8,15 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var viewModel = ViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(spacing: 0) {
+                Divider().overlay(Color("primary")).frame(height: 1).opacity(0.4)
+                ScrollView {
+                    VStack {
+                        storyList
+                    }.toolbar {
+                        toolbarView()
+                    }
+                }
+            }.navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
+    
+    var storyList: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                ForEach(viewModel.storyList) { item in
+                    StoryView(story: item)
+                }
+            }
+            .padding(.leading, 20)
+            .padding(.vertical, 8)
+        }
+    }
+    
 }
 
 #Preview {
