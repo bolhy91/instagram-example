@@ -52,7 +52,7 @@ struct StoryView: View {
             .padding(.bottom, -8)
             .overlay {
                 RoundedRectangle(cornerRadius: 3)
-                    .stroke(.white, lineWidth: 2)
+                    .stroke(Color("background"), lineWidth: 2)
                     .frame(width: 26, height: 16)
                     .padding(.bottom, -8)
                     .overlay {

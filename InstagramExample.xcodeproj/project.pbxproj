@@ -15,6 +15,11 @@
 		9E2099B32B3F28E200D76259 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099B22B3F28E200D76259 /* ViewModel.swift */; };
 		9E2099B52B3F32DD00D76259 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099B42B3F32DD00D76259 /* Utility.swift */; };
 		9E2099BA2B3F38B200D76259 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099B92B3F38B200D76259 /* StoryView.swift */; };
+		9E2099BC2B3F563E00D76259 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099BB2B3F563E00D76259 /* TimelineView.swift */; };
+		9E2099BE2B3F6AD500D76259 /* TabViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099BD2B3F6AD500D76259 /* TabViewCustom.swift */; };
+		9E2099C02B3F75DD00D76259 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E2099BF2B3F75DD00D76259 /* readme.md */; };
+		9E2099C52B3F766A00D76259 /* instagram-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2099C32B3F766A00D76259 /* instagram-black.png */; };
+		9E2099C62B3F766A00D76259 /* instagram-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2099C42B3F766A00D76259 /* instagram-white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		9E2099B22B3F28E200D76259 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9E2099B42B3F32DD00D76259 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		9E2099B92B3F38B200D76259 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		9E2099BB2B3F563E00D76259 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		9E2099BD2B3F6AD500D76259 /* TabViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCustom.swift; sourceTree = "<group>"; };
+		9E2099BF2B3F75DD00D76259 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		9E2099C32B3F766A00D76259 /* instagram-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instagram-black.png"; path = "../../../Desktop/instagram-black.png"; sourceTree = "<group>"; };
+		9E2099C42B3F766A00D76259 /* instagram-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instagram-white.png"; path = "../../../Desktop/instagram-white.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,8 @@
 		9E2099942B3F1FD600D76259 = {
 			isa = PBXGroup;
 			children = (
+				9E2099C22B3F761900D76259 /* design */,
+				9E2099BF2B3F75DD00D76259 /* readme.md */,
 				9E20999F2B3F1FD600D76259 /* InstagramExample */,
 				9E20999E2B3F1FD600D76259 /* Products */,
 			);
@@ -99,8 +111,19 @@
 			isa = PBXGroup;
 			children = (
 				9E2099B92B3F38B200D76259 /* StoryView.swift */,
+				9E2099BB2B3F563E00D76259 /* TimelineView.swift */,
+				9E2099BD2B3F6AD500D76259 /* TabViewCustom.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9E2099C22B3F761900D76259 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				9E2099C32B3F766A00D76259 /* instagram-black.png */,
+				9E2099C42B3F766A00D76259 /* instagram-white.png */,
+			);
+			path = design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +184,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2099C62B3F766A00D76259 /* instagram-white.png in Resources */,
 				9E2099A82B3F1FD700D76259 /* Preview Assets.xcassets in Resources */,
+				9E2099C02B3F75DD00D76259 /* readme.md in Resources */,
+				9E2099C52B3F766A00D76259 /* instagram-black.png in Resources */,
 				9E2099A52B3F1FD700D76259 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2099BA2B3F38B200D76259 /* StoryView.swift in Sources */,
+				9E2099BC2B3F563E00D76259 /* TimelineView.swift in Sources */,
 				9E2099B52B3F32DD00D76259 /* Utility.swift in Sources */,
+				9E2099BE2B3F6AD500D76259 /* TabViewCustom.swift in Sources */,
 				9E2099A32B3F1FD600D76259 /* ContentView.swift in Sources */,
 				9E2099B02B3F22E700D76259 /* UserModel.swift in Sources */,
 				9E2099B32B3F28E200D76259 /* ViewModel.swift in Sources */,
