@@ -11,6 +11,7 @@
 		9E2099A32B3F1FD600D76259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099A22B3F1FD600D76259 /* ContentView.swift */; };
 		9E2099A52B3F1FD700D76259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2099A42B3F1FD700D76259 /* Assets.xcassets */; };
 		9E2099A82B3F1FD700D76259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2099A72B3F1FD700D76259 /* Preview Assets.xcassets */; };
+		9E2099B02B3F22E700D76259 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2099AF2B3F22E700D76259 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9E2099A22B3F1FD600D76259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E2099A42B3F1FD700D76259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E2099A72B3F1FD700D76259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E2099AF2B3F22E700D76259 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9E20999F2B3F1FD600D76259 /* InstagramExample */ = {
 			isa = PBXGroup;
 			children = (
+				9E2099AE2B3F22CF00D76259 /* Model */,
 				9E2099A02B3F1FD600D76259 /* InstagramExampleApp.swift */,
 				9E2099A22B3F1FD600D76259 /* ContentView.swift */,
 				9E2099A42B3F1FD700D76259 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				9E2099A72B3F1FD700D76259 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E2099AE2B3F22CF00D76259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E2099AF2B3F22E700D76259 /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2099A32B3F1FD600D76259 /* ContentView.swift in Sources */,
+				9E2099B02B3F22E700D76259 /* UserModel.swift in Sources */,
 				9E2099A12B3F1FD600D76259 /* InstagramExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
